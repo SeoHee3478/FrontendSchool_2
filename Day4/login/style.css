@@ -26,9 +26,8 @@ body {
 
 .wrapper {
     background-color: white;
-    width: 350px;
+    width: 300px;
     margin: 100px auto;
-    /*전체 화면에서 중간 정도에 위치하도록 만들기*/
     padding: 20px;
     border-radius: 10px;
 }
@@ -65,8 +64,6 @@ body {
 
     width: 274px;
     margin-top: 15px;
-
-    /*클릭시 더 진하게*/
 }
 
 .box.login:hover {
@@ -136,10 +133,8 @@ body {
     border-radius: 5px;
     border: 0.1px solid #ddd;
     color: white;
-    /*이미지 스프라이트 기법 =>웹 성능 */
     background-image: url(images/social_login2.png);
     text-indent: -9999px;
-    /*ir 기법*/
     background-size: 240px 100px;
 }
 
