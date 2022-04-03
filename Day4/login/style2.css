@@ -1,0 +1,167 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #1A2129;
+}
+
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #3A3A3A;
+    font-size: 13px;
+}
+
+.wrapper {
+    background-color: white;
+    width: 350px;
+    margin: 100px auto;
+    /*전체 화면에서 중간 정도에 위치하도록 만들기*/
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.small_title {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form_name {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.box {
+    width: 320px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #DFE2E6;
+}
+
+.box:focus {
+    border-color: #58C079;
+    outline: none;
+}
+
+.box.signup {
+    background-color: #58C079;
+    color: white;
+    border: none;
+    width: 334px;
+    height: 50px;
+}
+
+.box.signup:hover {
+    background-color: #30A856;
+}
+
+.login a:link {
+    color: white;
+}
+
+.login a:visited {
+    color: white;
+}
+
+.detail {
+    color: #868A8D;
+    font-size: 12px;
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 12px;
+
+}
+
+.option {
+    color: #868A8D;
+}
+
+.simple_signup_title {
+    margin-top: 30px;
+    color: #C8CBCD;
+    font-size: 11px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.simple_signup_title:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    background-color: #F1F3F5;
+    width: 28%;
+    height: 1px;
+}
+
+.simple_signup_title:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 40px;
+    background-color: #F1F3F5;
+    width: 28%;
+    height: 1px;
+}
+
+.simple_signup {
+    text-align: center;
+}
+
+.icon {
+    display: inline-block;
+
+    margin: 0 5px;
+    width: 48px;
+    height: 48px;
+
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0.1px solid #ddd;
+    color: white;
+
+    background-image: url(images/social_login2.png);
+    text-indent: -9999px;
+
+    background-size: 240px 100px;
+}
+
+.icon.kakaotalk {
+    background-position: left top;
+}
+
+.icon.google {
+    background-position: 25% top;
+}
+
+.icon:hover {
+    background-position-y: bottom;
+}
