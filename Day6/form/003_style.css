@@ -1,0 +1,90 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #1A2129;
+}
+
+body,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0px;
+}
+
+body {
+    background-color: #EDE8F6;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.question_box.header {
+    border-top: 8px solid #592FAB;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 450;
+    margin-bottom: 15px;
+}
+
+.sub {
+    font-size: 13px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px gainsboro;
+    margin-bottom: 5px;
+}
+
+.email {
+
+    font-size: 10px;
+    color: #585A5F;
+    font-weight: 800;
+}
+
+.chk_share {
+
+    font-size: 10px;
+    color: #7E8185;
+}
+
+.change {
+    font-size: 10px;
+    font-weight: 500;
+    color: #3065E1;
+}
+
+.question_box {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.question {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.answer {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+button {
+    margin-left: 10px;
+    background-color: #592FAB;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px 8px 20px;
+    font-size: 12px;
+}
