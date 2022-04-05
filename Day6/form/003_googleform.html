@@ -14,101 +14,138 @@
 
 <body>
     <section class="wrapper">
-        <div class="question_box header">
-            <h1 class="title">나와 잘 맞는 회사는?</h1>
-            <p class="sub">가고 싶은 회사에 대한 호감도를 조사합니다. 아이고 의미없다.</p>
-
-            <span class="email">seohee3478@gmail.com</span>
-            <span class="chk_share">(공유되지 않음)</span>
-            <span class="change">계정전환</span>
-        </div>
-        <form action="" method="post">
-            <div class="question_box">
-                <label>
-                    <p class="question">
-                        다음 문자중에 왠지 마음에 드는 것을 하나고르세요.</p>
-                    <p class="answer">
-                        <input type="radio" name="check_company" value="naver">네
-                    </p>
-                    <p class="answer"><input type="radio" name="check_company" value="kakao">카</p>
-                    <p class="answer"><input type="radio" name="check_company" value="line">라
-                    </p>
-                    <p class="answer"><input type="radio" name="check_company" value="coopang">쿠
-                    </p>
-                    <p class="answer"><input type="radio" name="check_company" value="jejubase">제</p>
-
-                </label>
-            </div>
-            <div class="question_box">
-                <label>
-                    <p class="question">
-                        친구와 문자를 합니다. 다음 중 어떤 메신저를 이용하시겠습니까? 모두 골라주세요.</p>
-                    <p class="answer">
-                        <input type="checkbox" name="check_messanger" value="kakaotalk">카카오톡</p>
-                    <p class="answer">
-                        <input type="checkbox" name="check_messanger" value="line">라인</p>
-                    <p class="answer">
-                        <input type="checkbox" name="check_messanger" value="instagram_dm">인스타그램 디엠</p>
-                    <p class="answer">
-                        <input type="checkbox" name="check_messanger" value="nateon">네이트온</p>
-                    <p class="answer">
-                        <input type="checkbox" name="check_messanger" value="buddybuddy">버디버디</p>
-                </label>
-            </div>
-            <div class="question_box">
-                <label>
-                    <p class="question">
-                        면접에서 자신의 포부를 한 문장으로 얘기한다면?</p>
-                    <p class="answer">
-                        <input type="text" name="ambition" placeholder="내 답변">
-                    </p>
-                </label>
-            </div>
-
-            <div class="question_box">
-                <label>
-                    <p class="question">
-                        지금 당신은 한 기업의 최종 면접을 앞두고 있습니다. 면접장에 들어가기 직전, 자기 자신에게 해주고 싶은 말은?</p>
-                    <p class="answer">
-                        <textarea name="before_interview" id="" cols="30" rows="10" placeholder="내 답변"></textarea>
-                    </p>
-                </label>
-            </div>
 
 
-            <div class="question_box">
-                <label>
-                    <p class="question">다음 중 기술 면접 때 듣고 싶은 질문이 아닌 것은?</p>
-                    <p class="answer">
-                        <input type="text" id="skill_interview" list="question" name="question" placeholder="선택">
-                        <datalist id="question">
+        <form action="" method="get">
+            <fieldset>
+                <div class="question_box header">
+                    <legend class="title">나와 잘 맞는 회사는?</legend>
+                    <p class="sub">가고 싶은 회사에 대한 호감도를 조사합니다. 아이고 의미없다.</p>
 
-                            <option value="MVC패턴에 대해서 설명해주세요">MVC패턴에 대해서 설명해주세요.</option>
-                            <option value="RESTful한 HTTP에 대해서 설명해주세요">RESTful한 HTTP에 대해서 설명해주세요.</option>
-                        </datalist>
-                    </p>
-                </label>
-            </div>
-
-            <div class="question_box">
-                <label for="job_start">
-                    <p class="question">취업을 희망하는 날짜를 선택해주세요</p>
-                </label>
-                <p class="answer">
-                    <input type="date" name="start_date" id="job_start">
-                </p>
-            </div>
-
-            <div class="question_box">
-                <label>
-                    <p class="question">업무를 시작하기에 가장 적당한 시간을 고르세요</p>
-                    <p class="answer">
-                        <input type="time" name="start_time">
-                    </p>
-                </label>
-            </div>
-            <button class="submit" type="submit">제출</button>
-            <button class="reset" type="reset">양식 지우기</button>
+                    <span class="email">seohee3478@gmail.com</span>
+                    <span class="chk_share">(공유되지 않음)</span>
+                    <span class="change">계정전환</span>
+                </div>
+                <ul>
+                    <li>
+                        <div class="question_box">
+                            <p class="question">
+                                다음 문자중에 왠지 마음에 드는 것을 하나고르세요.
+                            </p>
+                            <p class="answer">
+                                <input type="radio" name="check_company" id="na" value="naver">
+                                <label for="na">네</label>
+                            </p>
+                            <p class="answer">
+                                <input type="radio" name="check_company" id="ka" value="kakao">
+                                <label for="ka">카</label>
+                            </p>
+                            <p class="answer">
+                                <input type="radio" name="check_company" id="la" value="line">
+                                <label for="la">라</label>
+                            </p>
+                            <p class="answer">
+                                <input type="radio" name="check_company" id="coo" value="coopang">
+                                <label for="coo">쿠</label>
+                            </p>
+                            <p class="answer">
+                                <input type="radio" name="check_company" id="je" value="jejubase">
+                                <label for="je">제</label>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="question_box">
+                            <p class="question">
+                                친구와 문자를 합니다. 다음 중 어떤 메신저를 이용하시겠습니까? 모두 골라주세요.</p>
+                            <p class="answer">
+                                <input type="checkbox" name="check_messanger" id="km" value="kakaotalk">
+                                <label for="km">카카오톡</label>
+                            </p>
+                            <p class="answer">
+                                <input type="checkbox" name="check_messanger" id="lm" value="line">
+                                <label for="lm">라인</label>
+                            </p>
+                            <p class="answer">
+                                <input type="checkbox" name="check_messanger" id="im" value="instagram_dm">
+                                <label for="im">인스타그램 디엠</label>
+                            </p>
+                            <p class="answer">
+                                <input type="checkbox" name="check_messanger" id="nm" value="nateon">
+                                <label for="nm">네이트온</label>
+                            </p>
+                            <p class="answer">
+                                <input type="checkbox" name="check_messanger" id="bm" value="buddybuddy">
+                                <label for="bm">버디버디</label>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="question_box">
+                            <label class="question" for="dream">면접에서 자신의 포부를 한 문장으로 얘기한다면?</label>
+                            <p class="answer">
+                                <input type="text" name="ambition" id="dream" placeholder="내 답변">
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="question_box">
+                            <label for="before">
+                                <p class="question">
+                                    지금 당신은 한 기업의 최종 면접을 앞두고 있습니다. 면접장에 들어가기 직전, 자기 자신에게 해주고 싶은 말은?</p>
+                                <p class="answer">
+                            </label>
+                            <p class="answer">
+                                <textarea name="before_interview" id="before" cols="30" rows="10"
+                                    placeholder="내 답변"></textarea>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="question_box">
+                            <label for="skill_interview">
+                                <p class="question">다음 중 기술 면접 때 듣고 싶은 질문이 아닌 것은?</p>
+                            </label>
+                            <p class="answer">
+                                <input type="text" id="skill_interview" list="question" name="question"
+                                    placeholder="선택">
+                                <datalist id="question">
+                                    <option value="0" selected disabled>선택</option>
+                                    <option value="1">자료구조와 알고리즘</option>
+                                    <option value="2">웹접근성</option>
+                                    <option value="3">CSS Flex와 Grid</option>
+                                    <option value="4">자바스크립트 이벤트 전파과정</option>
+                                    <option value="5">브라우저 리플로우 현상</option>
+                                </datalist>
+                            </p>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="question_box">
+                            <label for="job_start">
+                                <p class="question">취업을 희망하는 날짜를 선택해주세요</p>
+                            </label>
+                            <p class="answer">
+                                <input type="date" name="start_date" id="job_start">
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="question_box">
+                            <label for="job_time">
+                                <p class="question">업무를 시작하기에 가장 적당한 시간을 고르세요</p>
+                            </label>
+                            <p class="answer">
+                                <input type="time" name="start_time" id="job_time">
+                            </p>
+                            </label>
+                        </div>
+                    </li>
+                    <button class="submit" type="submit">제출</button>
+                    <button class="reset" type="reset">양식 지우기</button>
+                </ul>
+            </fieldset>
         </form>
     </section>
 </body>
