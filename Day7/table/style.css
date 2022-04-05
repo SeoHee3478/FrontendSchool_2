@@ -1,0 +1,75 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #1A2129;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: firebrick;
+
+}
+
+table {
+    width: 90%;
+    margin: auto;
+
+}
+
+caption {
+
+    margin: 30px 0;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    /*텍스트 그림자*/
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+th {
+    color: white;
+    border-bottom: solid 1px white;
+    padding-bottom: 5px;
+
+}
+
+td {
+
+    background-color: white;
+    color: brown;
+    font-weight: 700;
+    padding: 3px;
+
+}
+
+img {
+    padding-right: 10px;
+}
+
+.GROUP_A,
+.GROUP_B,
+.GROUP_C,
+.GROUP_D {
+    width: 250px;
+}
