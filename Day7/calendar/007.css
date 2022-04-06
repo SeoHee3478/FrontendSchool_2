@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+body,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+li {
+    list-style-type: none;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.wrapper {
+    background-color: white;
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px 20px;
+    box-shadow: 3px 3px 30px 1px gray;
+}
+
+
+
+table {
+
+
+    margin: 0 auto;
+
+}
+
+td {
+
+
+    text-align: center;
+    padding: 20px;
+}
+
+.Mon,
+.Tue,
+.Wed,
+.Thu,
+.Fri,
+.Sat,
+.Sun {
+    width: 45px;
+}
+
+.saturday {
+    color: #488DFF;
+}
+
+.holiday {
+    color: #FF5F5F;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: gray;
+
+
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 650;
+    color: gray;
+}
+
+.today {
+
+
+    border-radius: 100%;
+    color: white;
+    background-color: #86B3FF;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.all_btn {
+
+    margin: 20px 0 0 62.5px;
+
+}
+
+.month_btn {
+    margin-right: 20px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 700;
+}
+
+.month_btn:hover {
+    color: #86B3FF;
+}
