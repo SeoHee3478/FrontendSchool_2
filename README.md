@@ -38,7 +38,7 @@
 ### HTML/CSS
   - [버킷리스트](https://github.com/SeoHee3478/booklist)
   - [구글 폼](https://github.com/SeoHee3478/googleform)
-  - [달력](https://github.com/SeoHee3478/FrontendSchool_2/blob/main/Day7/calendar/README.md)
+  - [달력](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day7/calendar)
   - [천하제일 캐릭터 경진대회 출품작](https://github.com/SeoHee3478/codelion_character)
   - [로그인 화면](https://github.com/SeoHee3478/login_page/tree/main/login_main)
   - [반응형 웹](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day19/responsive-web)
