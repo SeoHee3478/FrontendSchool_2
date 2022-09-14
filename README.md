@@ -15,8 +15,6 @@
   - [천하제일 이력서 대회](https://github.com/SeoHee3478/Resume)
 
 ### JavaScript
-  - [Dropdown select box](https://github.com/SeoHee3478/login_page/tree/main/dropdown_selectbox)
-  - [10000hours](https://github.com/SeoHee3478/10000_hours_rule)
   - [밴딩머신](https://github.com/SeoHee3478/VendingMachine)
 
 ### React
