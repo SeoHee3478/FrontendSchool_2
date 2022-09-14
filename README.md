@@ -2,43 +2,6 @@
 
 2022.03.28 ~ 2022.08.01
 
-## TIL 기록
-
-<details>
-<summary>HTML/CSS (03.28~04.25)</summary>
-<div markdown="1">
-
-[1일차(03.28)](http://www.google.co.kr) <br/>
-[2일차(03.29)](http://www.google.co.kr) <br/>
-[3일차(03.30)](http://www.google.co.kr) <br/>
-[4일차(03.31)](http://www.google.co.kr) <br/>
-[5일차(04.01)](http://www.google.co.kr) <br/>
-
-[6일차(04.04)](http://www.google.co.kr) <br/>
-[7일차(04.05)](http://www.google.co.kr) <br/>
-[8일차(04.06)](http://www.google.co.kr) <br/>
-[9일차(04.07)](http://www.google.co.kr) <br/>
-[10일차(04.08)](http://www.google.co.kr) <br/>
-
-
-</div>
-</details>
-
-
-<details>
-<summary>JavaScript (04.26~05.26)</summary>
-<div markdown="1">
-
-[1일차(03.28)](http://www.google.co.kr) <br/>
-[2일차(03.29)](http://www.google.co.kr) <br/>
-[3일차(03.30)](http://www.google.co.kr) <br/>
-[4일차(03.31)](http://www.google.co.kr) <br/>
-[5일차(04.01)](http://www.google.co.kr) <br/>
-
-
-</div>
-</details>
-
 ## 과제
 
 ### HTML/CSS
