@@ -5,6 +5,8 @@
 ## TIL
 ### HTML/CSS
 -[Day2](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day2)
+-[Day3](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day3)
+
 ### JavaScript
 ### React
 
