@@ -4,8 +4,9 @@
 
 ## TIL
 ### HTML/CSS
--[Day2](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day2)
--[Day3](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day3)
+-[Day2](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day2)<br/>
+-[Day3](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day3)<br/>
+-[Day4](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day4)<br/>
 
 ### JavaScript
 ### React
