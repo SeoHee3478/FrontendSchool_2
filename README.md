@@ -11,6 +11,7 @@
 -[Day6](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day6)<br/>
 -[Day7](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day7)<br/>
 -[Day8](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day8)<br/>
+-[Day9](https://github.com/SeoHee3478/FrontendSchool_2/tree/main/Day9)<br/>
 
 ### JavaScript
 ### React
